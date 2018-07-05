@@ -1,0 +1,9 @@
+D:\C#\Новая папка\TextParser\InterfaceLibrary\obj\Debug\InterfaceLibrary.csproj.CoreCompileInputs.cache
+D:\C#\Новая папка\TextParser\InterfaceLibrary\bin\Debug\InterfaceLibrary.dll
+D:\C#\Новая папка\TextParser\InterfaceLibrary\bin\Debug\InterfaceLibrary.pdb
+D:\C#\Новая папка\TextParser\InterfaceLibrary\obj\Debug\InterfaceLibrary.dll
+D:\C#\Новая папка\TextParser\InterfaceLibrary\obj\Debug\InterfaceLibrary.pdb
+D:\C#\Новая папка\TextParser\InterfaceLibrary\bin\Debug\ClassLibrary.dll
+D:\C#\Новая папка\TextParser\InterfaceLibrary\bin\Debug\ClassLibrary.pdb
+D:\C#\Новая папка\TextParser\InterfaceLibrary\obj\Debug\InterfaceLibrary.csprojResolveAssemblyReference.cache
+D:\C#\Новая папка\TextParser\InterfaceLibrary\obj\Debug\InterfaceLibrary.csproj.CopyComplete

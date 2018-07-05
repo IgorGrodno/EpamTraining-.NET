@@ -1,0 +1,1457 @@
+﻿Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется откат для сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Восстанавливается исходное состояние журнала событий для источника ManagersService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется откат для сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Восстанавливается исходное состояние журнала событий для источника ManagersService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется откат для сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Восстанавливается исходное состояние журнала событий для источника ManagersService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Попытка останова службы ManagersService.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Попытка останова службы ManagersService.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется откат для сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Восстанавливается исходное состояние журнала событий для источника ManagersService.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется откат для сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Восстанавливается исходное состояние журнала событий для источника ManagersService.
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Предупреждение. Источник ManagersService не зарегистрирован на локальном компьютере.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется откат для сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Восстанавливается исходное состояние журнала событий для источника ManagersService.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Попытка останова службы ManagersService.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Попытка останова службы ManagersService.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Выполняется удаление источника EventLog ManagersService.
+Выполняется удаление службы ManagersService из системы...
+Служба ManagersService успешно удалена из системы.
+Выполняется установка сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe
+Устанавливается служба ManagersService...
+Служба ManagersService успешно установлена.
+Создается исходный EventLog ManagersService в журнале Application...
+Выполняется фиксация сборки 'd:\managers\Managers\ManagersService\bin\Release\ManagersService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = d:\managers\Managers\ManagersService\bin\Release\ManagersService.InstallLog
+   assemblypath = d:\managers\Managers\ManagersService\bin\Release\ManagersService.exe

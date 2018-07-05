@@ -1,0 +1,11 @@
+d:\managers\Managers\ManagersApp.DAL\bin\Release\ManagersApp.DAL.dll
+d:\managers\Managers\ManagersApp.DAL\bin\Release\ManagersApp.DAL.pdb
+d:\managers\Managers\ManagersApp.DAL\bin\Release\EntityFramework.dll
+d:\managers\Managers\ManagersApp.DAL\bin\Release\EntityFramework.SqlServer.dll
+d:\managers\Managers\ManagersApp.DAL\bin\Release\EntityFramework.xml
+d:\managers\Managers\ManagersApp.DAL\bin\Release\EntityFramework.SqlServer.xml
+d:\managers\Managers\ManagersApp.DAL\obj\Release\DALLevel.DAL.csproj.CoreCompileInputs.cache
+d:\managers\Managers\ManagersApp.DAL\obj\Release\DALLevel.DAL.csproj.CopyComplete
+d:\managers\Managers\ManagersApp.DAL\obj\Release\ManagersApp.DAL.dll
+d:\managers\Managers\ManagersApp.DAL\obj\Release\ManagersApp.DAL.pdb
+d:\managers\Managers\ManagersApp.DAL\obj\Release\DALLevel.DAL.csprojAssemblyReference.cache
