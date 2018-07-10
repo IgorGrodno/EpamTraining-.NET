@@ -19,7 +19,9 @@ namespace ManagersApp.DAL.EF
        public DbSet<Manager> Managers { get; set; }
        public DbSet<Sale> Sales { get; set; }
 
-       public DataContext()
+      
+
+        public DataContext()
             : base("DefaultConnection")
         {
          
