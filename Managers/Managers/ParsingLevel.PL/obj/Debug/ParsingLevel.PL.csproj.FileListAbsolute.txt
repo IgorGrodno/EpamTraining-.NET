@@ -1,0 +1,6 @@
+D:\managers\Managers\ParsingLevel.PL\bin\Debug\ParsingLevel.PL.dll
+D:\managers\Managers\ParsingLevel.PL\bin\Debug\ParsingLevel.PL.pdb
+D:\managers\Managers\ParsingLevel.PL\obj\Debug\ParsingLevel.PL.csprojAssemblyReference.cache
+D:\managers\Managers\ParsingLevel.PL\obj\Debug\ParsingLevel.PL.csproj.CoreCompileInputs.cache
+D:\managers\Managers\ParsingLevel.PL\obj\Debug\ParsingLevel.PL.dll
+D:\managers\Managers\ParsingLevel.PL\obj\Debug\ParsingLevel.PL.pdb

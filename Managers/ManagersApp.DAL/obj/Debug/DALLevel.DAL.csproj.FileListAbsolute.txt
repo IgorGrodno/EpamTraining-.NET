@@ -8,3 +8,16 @@ D:\managers\Managers\ManagersApp.DAL\obj\Debug\DALLevel.DAL.csproj.CoreCompileIn
 D:\managers\Managers\ManagersApp.DAL\obj\Debug\DALLevel.DAL.csproj.CopyComplete
 D:\managers\Managers\ManagersApp.DAL\obj\Debug\ManagersApp.DAL.dll
 D:\managers\Managers\ManagersApp.DAL\obj\Debug\ManagersApp.DAL.pdb
+D:\managers\ManagersApp.DAL\bin\Debug\ManagersApp.DAL.dll
+D:\managers\ManagersApp.DAL\bin\Debug\ManagersApp.DAL.pdb
+D:\managers\ManagersApp.DAL\bin\Debug\EntityFramework.dll
+D:\managers\ManagersApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\managers\ManagersApp.DAL\bin\Debug\EntityFramework.xml
+D:\managers\ManagersApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\managers\ManagersApp.DAL\obj\Debug\DALLevel.DAL.csprojAssemblyReference.cache
+D:\managers\ManagersApp.DAL\obj\Debug\DALLevel.DAL.csproj.CoreCompileInputs.cache
+D:\managers\ManagersApp.DAL\obj\Debug\DALLevel.DAL.csproj.CopyComplete
+D:\managers\ManagersApp.DAL\obj\Debug\ManagersApp.DAL.dll
+D:\managers\ManagersApp.DAL\obj\Debug\ManagersApp.DAL.pdb
+D:\managers\ManagersApp.DAL\bin\Debug\ru\EntityFramework.resources.dll
+D:\managers\ManagersApp.DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll

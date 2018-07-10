@@ -1,0 +1,16 @@
+D:\managers\Managers\BLLevel.BLL\bin\Debug\BLLevel.BLL.dll
+D:\managers\Managers\BLLevel.BLL\bin\Debug\BLLevel.BLL.pdb
+D:\managers\Managers\BLLevel.BLL\bin\Debug\AutoMapper.dll
+D:\managers\Managers\BLLevel.BLL\bin\Debug\ManagersApp.DAL.dll
+D:\managers\Managers\BLLevel.BLL\bin\Debug\System.ValueTuple.dll
+D:\managers\Managers\BLLevel.BLL\bin\Debug\EntityFramework.dll
+D:\managers\Managers\BLLevel.BLL\bin\Debug\ManagersApp.DAL.pdb
+D:\managers\Managers\BLLevel.BLL\bin\Debug\AutoMapper.pdb
+D:\managers\Managers\BLLevel.BLL\bin\Debug\AutoMapper.xml
+D:\managers\Managers\BLLevel.BLL\bin\Debug\System.ValueTuple.xml
+D:\managers\Managers\BLLevel.BLL\bin\Debug\EntityFramework.xml
+D:\managers\Managers\BLLevel.BLL\obj\Debug\BLLevel.BLL.csprojAssemblyReference.cache
+D:\managers\Managers\BLLevel.BLL\obj\Debug\BLLevel.BLL.csproj.CoreCompileInputs.cache
+D:\managers\Managers\BLLevel.BLL\obj\Debug\BLLevel.BLL.csproj.CopyComplete
+D:\managers\Managers\BLLevel.BLL\obj\Debug\BLLevel.BLL.dll
+D:\managers\Managers\BLLevel.BLL\obj\Debug\BLLevel.BLL.pdb

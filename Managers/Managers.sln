@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParsingLibrary", "ParsingLe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagersService", "ManagersService\ManagersService.csproj", "{08CFD988-9AC1-40A4-A18C-55AC8F4FA783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagersWebApp", "ManagersWebApp\ManagersWebApp.csproj", "{E22FD162-4B2F-42E1-B0EF-066C23AD5186}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{08CFD988-9AC1-40A4-A18C-55AC8F4FA783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08CFD988-9AC1-40A4-A18C-55AC8F4FA783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08CFD988-9AC1-40A4-A18C-55AC8F4FA783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22FD162-4B2F-42E1-B0EF-066C23AD5186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22FD162-4B2F-42E1-B0EF-066C23AD5186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22FD162-4B2F-42E1-B0EF-066C23AD5186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22FD162-4B2F-42E1-B0EF-066C23AD5186}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
