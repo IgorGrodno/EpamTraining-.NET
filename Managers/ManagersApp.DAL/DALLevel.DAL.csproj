@@ -63,7 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EF\DataContext.cs" />
+    <Compile Include="DC\DataContext.cs" />
     <Compile Include="Entities\Client.cs" />
     <Compile Include="Entities\Goods.cs" />
     <Compile Include="Entities\Manager.cs" />

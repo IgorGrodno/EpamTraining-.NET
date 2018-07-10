@@ -1,4 +1,4 @@
-﻿using ManagersApp.DAL.EF;
+﻿using ManagersApp.DAL.DC;
 using ManagersApp.DAL.Entities;
 using ManagersApp.DAL.Interfaces;
 using System;
