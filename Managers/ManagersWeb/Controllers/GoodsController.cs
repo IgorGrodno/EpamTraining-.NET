@@ -1,4 +1,5 @@
 ﻿using ManagersWeb.Models;
+using ManagersWeb.Repositories;
 using ManagersWeb.Services;
 using ManagersWeb.ViewModels;
 using System;
@@ -14,11 +15,11 @@ namespace ManagersWeb.Controllers
 {
     public class GoodsController : Controller
     {
-        private readonly IService<Goods> _service;
+        private readonly GoodsService _service;
 
-        public GoodsController(IService<Goods> service)
+        public GoodsController()
         {
-            _service = service;
+            _service = new GoodsService(new GoodsRepository());
         }
 
         public async Task<ActionResult> Index()
@@ -36,7 +37,7 @@ namespace ManagersWeb.Controllers
                 return View(goodsViewModel);
             }
 
-            var goods = await _service.GetAsync(goodsViewModel.Id);
+            var goods =  _service.GetAsync(goodsViewModel.Id);
             if (goods != null)
             {
                 goods.Name = goodsViewModel.Name;
@@ -47,9 +48,9 @@ namespace ManagersWeb.Controllers
             return RedirectToLocal(redirectUrl);
         }
 
-        public async Task<ActionResult> Edit(int id)
+        public ActionResult Edit(int id)
         {
-            var goods = await _service.GetAsync(id);
+            var goods =  _service.GetAsync(id);
 
             var goodsViewModel = new GoodsViewModel
             {

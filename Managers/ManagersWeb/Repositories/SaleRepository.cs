@@ -1,7 +1,9 @@
 ﻿using ManagersWeb.DB;
 using ManagersWeb.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace ManagersWeb.Repositories
@@ -12,13 +14,13 @@ namespace ManagersWeb.Repositories
         public SaleRepository()
         { }
 
-        public async Task<Sale> GetAsync(int id)
+        public  Sale Get(int id)
         {
             Sale result = null;
 
             using (var Dbcontext = new DBContext())
             {
-                result = await Dbcontext.Sales.FirstOrDefaultAsync(f => f.Id == id);
+                result = Dbcontext.Sales.FirstOrDefault(f => f.Id == id);
             }
 
             return result;
@@ -59,5 +61,62 @@ namespace ManagersWeb.Repositories
 
             return sale;
         }
+
+        public async Task<IEnumerable<Sale>> GetByClientAsync(int clientId)
+        {
+            var result = new List<Sale>();
+
+            using (var Dbcontext = new DBContext())
+            {
+                result = await (from sale in Dbcontext.Sales
+                                where sale.ClientId == clientId
+                                select sale).ToListAsync();
+            }
+
+            return result;
+        }
+
+        public async Task<IEnumerable<Sale>> GetByGoodsAsync(int godsId)
+        {
+            var result = new List<Sale>();
+
+            using (var Dbcontext = new DBContext())
+            {
+                result = await (from sale in Dbcontext.Sales
+                                where sale.GoodsId == godsId
+                                select sale).ToListAsync();
+            }
+
+            return result;
+        }
+
+        public async Task<IEnumerable<Sale>> GetByManagerAsync(int managerId)
+        {
+            var result = new List<Sale>();
+
+            using (var Dbcontext = new DBContext())
+            {
+                result = await (from sale in Dbcontext.Sales
+                                where sale.ManagerId == managerId
+                                select sale).ToListAsync();
+            }
+
+            return result;
+        }
+
+        public async Task<IEnumerable<Sale>> GetByDateAsync(DateTime startDate, DateTime endDate)
+        {
+            var result = new List<Sale>();
+
+            using (var Dbcontext = new DBContext())
+            {
+                result = await (from sale in Dbcontext.Sales
+                                where ((sale.Date >= startDate) && (sale.Date <= endDate))
+                                select sale).ToListAsync();
+            }
+
+            return result;
+        }
+
     }
 }

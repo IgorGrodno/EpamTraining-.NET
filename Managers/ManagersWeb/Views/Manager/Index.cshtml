@@ -1,7 +1,31 @@
-﻿
+﻿@using ManagersWeb.Models;
+@model List<Manager>
+
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Manager Page";
 }
 
-<h2>Index</h2>
+<h3>List Of Managers</h3>
 
+
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Sales", "ShowManagerSales", new { id = item.Id })
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>

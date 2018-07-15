@@ -1,24 +1,18 @@
-﻿using ManagersWeb.Models;
+﻿using ManagersWeb.Repositories;
 using ManagersWeb.Services;
 using ManagersWeb.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Threading.Tasks;
-using System.Web.Http;
 using System.Web.Mvc;
 
 namespace ManagersWeb.Controllers
 {
     public class ClientController : Controller
     {
-        private readonly IService<Client> _service;
+        private readonly ClientService _service;
 
-        public ClientController(IService<Client> service)
+        public ClientController()
         {
-            _service = service;
+            _service = new ClientService(new ClientRepository());
         }
 
         public async Task<ActionResult> Index()
@@ -28,7 +22,7 @@ namespace ManagersWeb.Controllers
             return View(clients);
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public async Task<ActionResult> Save(ClientViewModel clientViewModel, string redirectUrl)
         {
             if (!ModelState.IsValid)
@@ -36,7 +30,7 @@ namespace ManagersWeb.Controllers
                 return View(clientViewModel);
             }
 
-            var client = await _service.GetAsync(clientViewModel.Id);
+            var client = _service.Get(clientViewModel.Id);
             if (client != null)
             {
                 client.Name = clientViewModel.Name;
@@ -47,9 +41,9 @@ namespace ManagersWeb.Controllers
             return RedirectToLocal(redirectUrl);
         }
 
-        public async Task<ActionResult> Edit(int id)
+        public ActionResult Edit(int id)
         {
-            var client = await _service.GetAsync(id);
+            var client =  _service.Get(id);
 
             var clientViewModel = new ClientViewModel
             {

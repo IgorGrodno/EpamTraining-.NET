@@ -27,9 +27,9 @@ namespace ManagersWeb.Services
             return await _repository.GetAllAsync();
         }
 
-        public async Task<Manager> GetAsync(int id)
+        public Manager Get(int id)
         {
-            return await _repository.GetAsync(id);
+            return _repository.Get(id);
         }
 
         public async Task<Manager> UpdateAsync(Manager item)

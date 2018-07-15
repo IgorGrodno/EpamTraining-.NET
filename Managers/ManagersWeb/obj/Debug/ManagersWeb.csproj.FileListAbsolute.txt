@@ -20,7 +20,6 @@ D:\!!\ManagersWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 D:\!!\ManagersWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\!!\ManagersWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
 D:\!!\ManagersWeb\bin\roslyn\System.AppContext.dll
-D:\!!\ManagersWeb\bin\roslyn\System.Collections.Immutable.dll
 D:\!!\ManagersWeb\bin\roslyn\System.Console.dll
 D:\!!\ManagersWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 D:\!!\ManagersWeb\bin\roslyn\System.Diagnostics.Process.dll
@@ -127,7 +126,6 @@ D:\!!\ManagersWeb\bin\ru\EntityFramework.SqlServer.resources.dll
 D:\!!\ManagersWeb\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
 D:\!!\ManagersWeb\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
 D:\!!\ManagersWeb\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
-D:\!!\ManagersWeb\obj\Debug\ManagersWeb.csprojAssemblyReference.cache
 D:\!!\ManagersWeb\obj\Debug\ManagersWeb.csproj.CoreCompileInputs.cache
 D:\!!\ManagersWeb\obj\Debug\ManagersWeb.csproj.CopyComplete
 D:\!!\ManagersWeb\obj\Debug\ManagersWeb.dll
@@ -138,3 +136,5 @@ D:\!!\ManagersWeb\bin\System.Web.Http.WebHost.dll
 D:\!!\ManagersWeb\bin\System.Net.Http.Formatting.xml
 D:\!!\ManagersWeb\bin\System.Web.Http.xml
 D:\!!\ManagersWeb\bin\System.Web.Http.WebHost.xml
+d:\!!\ManagersWeb\bin\roslyn\System.Collections.Immutable.dll
+d:\!!\ManagersWeb\obj\Debug\ManagersWeb.csprojAssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using ManagersWeb.Models;
+using ManagersWeb.Repositories;
 using ManagersWeb.Services;
 using ManagersWeb.ViewModels;
 using System;
@@ -14,11 +15,11 @@ namespace ManagersWeb.Controllers
 {
     public class ManagerController : Controller
     {
-        private readonly IService<Manager> _service;
+        private readonly ManagerService _service;
 
-        public ManagerController(IService<Manager> service)
+        public ManagerController()
         {
-            _service = service;
+            _service = new ManagerService(new ManagerRepository());
         }
 
         public async Task<ActionResult> Index()
@@ -36,7 +37,7 @@ namespace ManagersWeb.Controllers
                 return View(managerViewModel);
             }
 
-            var manager = await _service.GetAsync(managerViewModel.Id);
+            var manager =_service.Get(managerViewModel.Id);
             if (manager != null)
             {
                 manager.Name = managerViewModel.Name;
@@ -47,9 +48,9 @@ namespace ManagersWeb.Controllers
             return RedirectToLocal(redirectUrl);
         }
 
-        public async Task<ActionResult> Edit(int id)
+        public ActionResult Edit(int id)
         {
-            var manager = await _service.GetAsync(id);
+            var manager = _service.Get(id);
 
             var managerViewModel = new ManagerViewModel
             {

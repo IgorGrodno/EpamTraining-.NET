@@ -2,6 +2,7 @@
 using ManagersWeb.Models;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace ManagersWeb.Repositories
@@ -12,13 +13,13 @@ namespace ManagersWeb.Repositories
         public ClientRepository()
         { }
 
-        public async Task<Client> GetAsync(int id)
+        public Client Get(int id)
         {
             Client result = null;
 
             using (var Dbcontext = new DBContext())
             {
-                result = await Dbcontext.Clients.FirstOrDefaultAsync(f => f.Id == id);
+                result = Dbcontext.Clients.FirstOrDefault(f => f.Id == id);
             }
 
             return result;

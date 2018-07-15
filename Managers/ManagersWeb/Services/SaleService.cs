@@ -8,11 +8,11 @@ using System.Web;
 
 namespace ManagersWeb.Services
 {
-    public class SaleService : IService<Sale>
+    public class SaleService 
     {
-        private readonly IRepository<Sale> _repository;
+        private readonly SaleRepository _repository;
 
-        public SaleService(IRepository<Sale> repository)
+        public SaleService(SaleRepository repository)
         {
             _repository = repository;
         }
@@ -27,14 +27,31 @@ namespace ManagersWeb.Services
             return await _repository.GetAllAsync();
         }
 
-        public async Task<Sale> GetAsync(int id)
+        public Sale GetAsync(int id)
         {
-            return await _repository.GetAsync(id);
+            return _repository.Get(id);
         }
 
-        public async Task<Sale> UpdateAsync(Sale item)
+        public async Task<IEnumerable<Sale>> GetByManagerAsync(int id)
         {
-            return await _repository.UpdateAsync(item);
+            return await _repository.GetByManagerAsync(id);
         }
+
+        public async Task<IEnumerable<Sale>> GetByClientAsync(int id)
+        {
+            return await _repository.GetByClientAsync(id);
+        }
+
+        public async Task<IEnumerable<Sale>> GetByGoodsAsync(int id)
+        {
+            return await _repository.GetByGoodsAsync(id);
+        }
+
+        public async Task<IEnumerable<Sale>> GetByDateAsync(DateTime startDate, DateTime endDate)
+        {
+            return await _repository.GetByDateAsync(startDate,endDate);
+        }
+
+
     }
 }

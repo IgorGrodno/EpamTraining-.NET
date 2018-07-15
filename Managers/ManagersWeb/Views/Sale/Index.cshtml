@@ -1,7 +1,58 @@
-﻿
+﻿@using ManagersWeb.Models;
+@model List<SaleToView>
+
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Sales Page";
 }
 
-<h2>Index</h2>
+<h3>List Of Sales</h3>
+@Html.ActionLink("Select by Manager", "GetByManagerAsync")
+@Html.ActionLink("Select by Goods", "GetByGoodsAsync")
+@Html.ActionLink("Select by Client", "GetByClientAsync")
+@Html.ActionLink("Select by Date", "GetByDateAsync")
 
+
+<table class="table">
+    <tr>
+        <th>
+            Manager
+        </th>
+        <th>
+            Client
+        </th>
+        <th>
+            Goods
+        </th>
+        <th>
+            Date
+        </th>
+        <th>
+            Summ
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ManagerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoodsName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Summ)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+
+        </td>
+    </tr>
+    }
+</table>
