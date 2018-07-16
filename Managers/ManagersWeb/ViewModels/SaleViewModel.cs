@@ -15,11 +15,12 @@ namespace ManagersWeb.ViewModels
         public int Id { get; set; }
 
         [Display(Name = "Start date")]
-        [Required(ErrorMessage = ("Date is required."))]
+        [DataType(DataType.Date)]
         public DateTime StartDate { get; set; }
 
         [Display(Name = "End date")]
-        [Required(ErrorMessage = ("Date is is required."))]
+        [DataType(DataType.Date)]
         public DateTime EndDate { get; set; }
+
     }
 }

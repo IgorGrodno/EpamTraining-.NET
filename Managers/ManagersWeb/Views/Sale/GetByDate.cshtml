@@ -17,57 +17,22 @@
                 
                 <br />
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                @*<div class="form-group">
-                @Html.LabelFor(m => m.UserType, new { @class = "col-md-2 control-label" })
-                <div class="col-md-10">
-                    @Html.EnumDropDownListFor(m => m.UserType, "(none)", new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.UserType, "", new { @class = "text-danger" })
-                </div>
-            </div>*@
-                <div class="form-group">
-                    @Html.LabelFor(m => m.StartDate, new { @class = "col-md-2 control-label" })
-                    <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.StartDate, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(m => m.StartDate, "", new { @class = "text-danger" })
+               
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+                        </div>
                     </div>
-
-                </div>
-                <div class="form-group">
-                    @Html.LabelFor(m => m.EndDate, new { @class = "col-md-2 control-label" })
-                    <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.EndDate, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(m => m.EndDate, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EndDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.EndDate, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.EndDate, "", new { @class = "text-danger" })
+                        </div>
                     </div>
-
-                </div>
-                @*<div class="form-group">
-                @Html.LabelFor(m => m.FirstName, new { @class = "col-md-2 control-label" })
-                <div class="col-md-10">
-                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })
-                </div>
-            </div>
-            <div class="form-group">
-                @Html.LabelFor(m => m.LastName, new { @class = "col-md-2 control-label" })
-                <div class="col-md-10">
-                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
-                </div>
-            </div>
-            <div class="form-group">
-                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
-                <div class="col-md-10">
-                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
-                </div>
-            </div>
-            <div class="form-group">
-                @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
-                <div class="col-md-10">
-                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
-                </div>
-            </div>*@
+              
                 <div class="form-group">
                     <div class="col-md-offset-2 col-md-10">
                         <input type="submit" value="@Model.AddButtonTitle" class="btn btn-default" />
