@@ -14,8 +14,12 @@ namespace ManagersWeb.ViewModels
 
         public int Id { get; set; }
 
-        [Display(Name = "Sale Name")]
-        [Required(ErrorMessage = ("Manager Name is required.")), RegularExpression(@"^[a-zA-Z]*$", ErrorMessage = "Only alphabetic characters are allowed.")]
-        public string Name { get; set; }
+        [Display(Name = "Start date")]
+        [Required(ErrorMessage = ("Date is required."))]
+        public DateTime StartDate { get; set; }
+
+        [Display(Name = "End date")]
+        [Required(ErrorMessage = ("Date is is required."))]
+        public DateTime EndDate { get; set; }
     }
 }

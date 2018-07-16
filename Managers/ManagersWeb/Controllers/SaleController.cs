@@ -11,24 +11,24 @@ namespace ManagersWeb.Controllers
 {
 
     public class SaleController : Controller
-        {
-            private readonly SaleService _saleService;
-            private readonly GoodsService _goodsService;
-            private readonly ManagerService _managerService;
-            private readonly ClientService _clientService;
-            
+    {
+        private readonly SaleService _saleService;
+        private readonly GoodsService _goodsService;
+        private readonly ManagerService _managerService;
+        private readonly ClientService _clientService;
+
         public SaleController()
-            {
+        {
             _saleService = new SaleService(new SaleRepository());
             _goodsService = new GoodsService(new GoodsRepository());
             _managerService = new ManagerService(new ManagerRepository());
             _clientService = new ClientService(new ClientRepository());
-            }
+        }
 
-            public async Task<ActionResult> Index()
-            {
+        public async Task<ActionResult> Index()
+        {
             List<SaleToView> saleToViews = new List<SaleToView>();
-            
+
             var sales = await _saleService.GetAllAsync();
             foreach (var item in sales)
             {
@@ -41,12 +41,12 @@ namespace ManagersWeb.Controllers
                     Date = item.Date,
                     Summ = item.Summ
                 });
-                 
-            }            
-                return View(saleToViews);
-            }
 
-          
+            }
+            return View(saleToViews);
+        }
+
+
         public async Task<ActionResult> GetByManagerAsync(int id)
         {
             var sale = await _saleService.GetByManagerAsync(id);
@@ -70,11 +70,24 @@ namespace ManagersWeb.Controllers
 
         public async Task<ActionResult> GetByDateAsync(DateTime startDate, DateTime endDate)
         {
-            var sale = await _saleService.GetByDateAsync(startDate,endDate);
+            var sale = await _saleService.GetByDateAsync(startDate, endDate);
+            List<SaleToView> saleToViews = new List<SaleToView>();
+            foreach (var item in sale)
+            {
+                saleToViews.Add(new SaleToView
+                {
+                    Id = item.Id,
+                    ClientName = _clientService.Get(item.ClientId).Name,
+                    ManagerName = _managerService.Get(item.ManagerId).Name,
+                    GoodsName = _goodsService.GetAsync(item.GoodsId).Name,
+                    Date = item.Date,
+                    Summ = item.Summ
+                });
 
-            return View(sale);
+            }
+            return View(saleToViews);
         }
-
+    
         public ActionResult GetByDate()
         {
             var saleViewModel = new SaleViewModel
@@ -88,28 +101,7 @@ namespace ManagersWeb.Controllers
             return View(saleViewModel);
         }
 
-        public ActionResult GetByManagerAsync()
-        {
-            return View();
-        }
-
-        public ActionResult GetByGoodsAsync()
-        {
-          
-            return View();
-        }
-
-        public ActionResult GetByClientAsync()
-        {
-            
-            return View();
-        }
-
-        public ActionResult GetByDateAsync()
-        {
-           
-            return View();
-        }
+       
 
         public async Task<ActionResult> Delete(int id)
             {

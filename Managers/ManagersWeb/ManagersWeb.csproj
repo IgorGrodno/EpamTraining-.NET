@@ -311,6 +311,7 @@
     <Content Include="Views\Client\GetSales.cshtml" />
     <Content Include="Views\Goods\GetSales.cshtml" />
     <Content Include="Views\Sale\GetByDate.cshtml" />
+    <Content Include="Views\Sale\GetByDateAsync.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
