@@ -15,18 +15,44 @@ namespace ManagersWeb.Controllers
 {
     public class ManagerController : Controller
     {
-        private readonly ManagerService _service;
+        private readonly SaleService _saleService;
+        private readonly GoodsService _goodsService;
+        private readonly ManagerService _managerService;
+        private readonly ClientService _clientService;
 
         public ManagerController()
         {
-            _service = new ManagerService(new ManagerRepository());
+            _saleService = new SaleService(new SaleRepository());
+            _goodsService = new GoodsService(new GoodsRepository());
+            _managerService = new ManagerService(new ManagerRepository());
+            _clientService = new ClientService(new ClientRepository());
         }
 
         public async Task<ActionResult> Index()
         {
-            var managers = await _service.GetAllAsync();
+            var managers = await _managerService.GetAllAsync();
 
             return View(managers);
+        }
+
+        public async Task<ActionResult> GetSales(int id)
+        {
+            List<SaleToView> saleToViews = new List<SaleToView>();
+            var sales = await _saleService.GetByManagerAsync(id);
+            foreach (var item in sales)
+            {
+                saleToViews.Add(new SaleToView
+                {
+                    Id = item.Id,
+                    ClientName = _clientService.Get(item.ClientId).Name,
+                    ManagerName = _managerService.Get(item.ManagerId).Name,
+                    GoodsName = _goodsService.GetAsync(item.GoodsId).Name,
+                    Date = item.Date,
+                    Summ = item.Summ
+                });
+                
+            }
+            return View(saleToViews);
         }
 
         [System.Web.Http.HttpPost]
@@ -37,12 +63,12 @@ namespace ManagersWeb.Controllers
                 return View(managerViewModel);
             }
 
-            var manager =_service.Get(managerViewModel.Id);
+            var manager = _managerService.Get(managerViewModel.Id);
             if (manager != null)
             {
                 manager.Name = managerViewModel.Name;
 
-                await _service.UpdateAsync(manager);
+                await _managerService.UpdateAsync(manager);
             }
 
             return RedirectToLocal(redirectUrl);
@@ -50,7 +76,7 @@ namespace ManagersWeb.Controllers
 
         public ActionResult Edit(int id)
         {
-            var manager = _service.Get(id);
+            var manager = _managerService.Get(id);
 
             var managerViewModel = new ManagerViewModel
             {
@@ -66,7 +92,7 @@ namespace ManagersWeb.Controllers
 
         public async Task<ActionResult> Delete(int id)
         {
-            await _service.DeleteAsync(id);
+            await _managerService.DeleteAsync(id);
 
             return RedirectToAction("Index");
         }
@@ -80,5 +106,7 @@ namespace ManagersWeb.Controllers
             }
             return RedirectToAction("Index", "Manager");
         }
+
+
     }
 }

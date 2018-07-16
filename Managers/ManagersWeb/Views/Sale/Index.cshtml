@@ -6,10 +6,7 @@
 }
 
 <h3>List Of Sales</h3>
-@Html.ActionLink("Select by Manager", "GetByManagerAsync")
-@Html.ActionLink("Select by Goods", "GetByGoodsAsync")
-@Html.ActionLink("Select by Client", "GetByClientAsync")
-@Html.ActionLink("Select by Date", "GetByDateAsync")
+@Html.ActionLink("Select by Date", "GetByDate")
 
 
 <table class="table">
@@ -49,10 +46,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.Summ)
         </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.Id })
-
-        </td>
+        
     </tr>
     }
 </table>

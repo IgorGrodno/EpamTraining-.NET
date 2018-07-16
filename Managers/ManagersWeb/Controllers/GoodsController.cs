@@ -15,18 +15,43 @@ namespace ManagersWeb.Controllers
 {
     public class GoodsController : Controller
     {
-        private readonly GoodsService _service;
+        private readonly SaleService _saleService;
+        private readonly GoodsService _goodsService;
+        private readonly ManagerService _managerService;
+        private readonly ClientService _clientService;
 
         public GoodsController()
         {
-            _service = new GoodsService(new GoodsRepository());
+            _saleService = new SaleService(new SaleRepository());
+            _goodsService = new GoodsService(new GoodsRepository());
+            _managerService = new ManagerService(new ManagerRepository());
+            _clientService = new ClientService(new ClientRepository());
         }
-
-        public async Task<ActionResult> Index()
+            public async Task<ActionResult> Index()
         {
-            var goodses = await _service.GetAllAsync();
+            var goodses = await _goodsService.GetAllAsync();
 
             return View(goodses);
+        }
+
+        public async Task<ActionResult> GetSales(int id)
+        {
+            List<SaleToView> saleToViews = new List<SaleToView>();
+            var sales = await _saleService.GetByGoodsAsync(id);
+            foreach (var item in sales)
+            {
+                saleToViews.Add(new SaleToView
+                {
+                    Id = item.Id,
+                    ClientName = _clientService.Get(item.ClientId).Name,
+                    ManagerName = _managerService.Get(item.ManagerId).Name,
+                    GoodsName = _goodsService.GetAsync(item.GoodsId).Name,
+                    Date = item.Date,
+                    Summ = item.Summ
+                });
+
+            }
+            return View(saleToViews);
         }
 
         [System.Web.Http.HttpPost]
@@ -37,12 +62,12 @@ namespace ManagersWeb.Controllers
                 return View(goodsViewModel);
             }
 
-            var goods =  _service.GetAsync(goodsViewModel.Id);
+            var goods = _goodsService.GetAsync(goodsViewModel.Id);
             if (goods != null)
             {
                 goods.Name = goodsViewModel.Name;
 
-                await _service.UpdateAsync(goods);
+                await _goodsService.UpdateAsync(goods);
             }
 
             return RedirectToLocal(redirectUrl);
@@ -50,7 +75,7 @@ namespace ManagersWeb.Controllers
 
         public ActionResult Edit(int id)
         {
-            var goods =  _service.GetAsync(id);
+            var goods = _goodsService.GetAsync(id);
 
             var goodsViewModel = new GoodsViewModel
             {
@@ -66,7 +91,7 @@ namespace ManagersWeb.Controllers
 
         public async Task<ActionResult> Delete(int id)
         {
-            await _service.DeleteAsync(id);
+            await _goodsService.DeleteAsync(id);
 
             return RedirectToAction("Index");
         }

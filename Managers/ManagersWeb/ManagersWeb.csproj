@@ -302,12 +302,15 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Sale\Index.cshtml" />
     <Content Include="Views\Manager\Index.cshtml" />
-    <Content Include="Views\Manager\ShowManagerSales.cshtml" />
     <Content Include="Views\Goods\Index.cshtml" />
     <Content Include="Views\Client\Index.cshtml" />
     <Content Include="Views\Client\Edit.cshtml" />
     <Content Include="Views\Manager\Edit.cshtml" />
     <Content Include="Views\Goods\Edit.cshtml" />
+    <Content Include="Views\Manager\GetSales.cshtml" />
+    <Content Include="Views\Client\GetSales.cshtml" />
+    <Content Include="Views\Goods\GetSales.cshtml" />
+    <Content Include="Views\Sale\GetByDate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

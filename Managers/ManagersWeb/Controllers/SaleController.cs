@@ -32,7 +32,6 @@ namespace ManagersWeb.Controllers
             var sales = await _saleService.GetAllAsync();
             foreach (var item in sales)
             {
-               // saleToViews.Add(new SaleToView { Id = new Random().Next(), Date = DateTime.Now, Summ = new Random().Next(), ClientName = "Client" + new Random().Next(), GoodsName = "Goods" + new Random().Next(), ManagerName = "Manager" + new Random().Next() });
                 saleToViews.Add(new SaleToView
                 {
                     Id = item.Id,
@@ -43,8 +42,7 @@ namespace ManagersWeb.Controllers
                     Summ = item.Summ
                 });
                  
-            }
-            
+            }            
                 return View(saleToViews);
             }
 
@@ -75,6 +73,19 @@ namespace ManagersWeb.Controllers
             var sale = await _saleService.GetByDateAsync(startDate,endDate);
 
             return View(sale);
+        }
+
+        public ActionResult GetByDate()
+        {
+            var saleViewModel = new SaleViewModel
+            {
+                Title = "Get sales by date",
+                AddButtonTitle = "Get",
+                RedirectUrl = Url.Action("GetByDate", "Sale"),
+               
+            };
+
+            return View(saleViewModel);
         }
 
         public ActionResult GetByManagerAsync()

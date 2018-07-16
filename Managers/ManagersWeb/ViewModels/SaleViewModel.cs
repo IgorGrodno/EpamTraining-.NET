@@ -8,12 +8,14 @@ namespace ManagersWeb.ViewModels
 {
     public class SaleViewModel
     {
-        public int Id { get; set; }
-        public string Client { get; set; }
-        public string Manager { get; set; }
-        public string Goods { get; set; }
-        public DateTime Date { get; set; }
-        public int Summ { get; set; }   
+        public string Title { get; set; }
+        public string AddButtonTitle { get; set; }
         public string RedirectUrl { get; set; }
+
+        public int Id { get; set; }
+
+        [Display(Name = "Sale Name")]
+        [Required(ErrorMessage = ("Manager Name is required.")), RegularExpression(@"^[a-zA-Z]*$", ErrorMessage = "Only alphabetic characters are allowed.")]
+        public string Name { get; set; }
     }
 }
