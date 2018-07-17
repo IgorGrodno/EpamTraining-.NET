@@ -15,5 +15,9 @@ namespace ManagersWeb.DB
         {
 
         }
+        public static DBContext Create()
+        {
+            return new DBContext();
+        }
     }
 }

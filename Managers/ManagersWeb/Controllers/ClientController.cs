@@ -69,6 +69,7 @@ namespace ManagersWeb.Controllers
             return RedirectToLocal(redirectUrl);
         }
 
+        [Authorize(Roles = "admin")]
         public ActionResult Edit(int id)
         {
             var client = _clientService.Get(id);
